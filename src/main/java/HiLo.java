@@ -3,9 +3,6 @@ import java.util.Scanner;
 
 public class HiLo {
     public static void main(String[] args) {
-        JFrame myFrame = new JFrame("Hello!");
-        myFrame.setSize (300,200);
-        myFrame.setVisible(true);
 
         Scanner scan = new Scanner(System.in);
         String playAgain = "";
